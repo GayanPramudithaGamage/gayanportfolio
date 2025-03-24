@@ -25,14 +25,14 @@ export const PROJECTS = [
     image: project5,
     description:
       " Developed a responsive food delivery application with JWT authentication, advanced filtering options, and easy ordering process, along with a strong administrative dashboard for easy inventory and order management.",
-    technologies: ["React.js, Express.js, JSON Web Tokens (JWT), MongoDB "],
+    technologies: ["React.js", "Express.js", "JSON Web Tokens (JWT)", "MongoDB "],
   },  
   {
     title: "EduSphere - Educational Landing Page",
     image: project4,
     description:
       "Designed and developed a fully responsive educational landing page using Vue.js and Tailwind CSS. The page includes a structured layout with a navbar, hero section, course cards with pricing and discounts, services, categories, client testimonials, and a footer. While nonfunctional, the project showcases modern UI design principles and mobile-first responsiveness.",
-    technologies: [" Vue.js, Tailwind CSS"],
+    technologies: [" Vue.js", "Tailwind CSS"],
   },  
   {
     title: "Portfolio Website",
