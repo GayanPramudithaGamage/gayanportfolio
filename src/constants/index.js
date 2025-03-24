@@ -1,6 +1,8 @@
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.png";
+import project4 from "../assets/projects/project-4.png";
+import project5 from "../assets/projects/project-5.png";
 
 
 export const HERO_CONTENT = `I am a Software Engineer with one year of professional experience in the field and a completed degree in Software Engineering. I utilize React, Vue.js, and Python to transform challenging issues into elegant, user-friendly applications with practical significance. I am passionate about innovation and technical excellence, which motivates me to deliver solutions that exceed the limits of technology.`;
@@ -18,6 +20,20 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
+  {
+    title: "Portfolio WebsiteFood Delivery Website (On-going) ",
+    image: project5,
+    description:
+      " Developed a responsive food delivery application with JWT authentication, advanced filtering options, and easy ordering process, along with a strong administrative dashboard for easy inventory and order management.",
+    technologies: ["React.js, Express.js, JSON Web Tokens (JWT), MongoDB "],
+  },  
+  {
+    title: "EduSphere - Educational Landing Page",
+    image: project4,
+    description:
+      "Designed and developed a fully responsive educational landing page using Vue.js and Tailwind CSS. The page includes a structured layout with a navbar, hero section, course cards with pricing and discounts, services, categories, client testimonials, and a footer. While nonfunctional, the project showcases modern UI design principles and mobile-first responsiveness.",
+    technologies: [" Vue.js, Tailwind CSS"],
+  },  
   {
     title: "Portfolio Website",
     image: project3,
